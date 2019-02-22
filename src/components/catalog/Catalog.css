@@ -151,11 +151,11 @@ textarea {
         height: 50px;
     }
 
-    .game-table-p-container {
+    .game-table-p-contain {
         display: block;
     }
 
-    .game-table-p-container p {
+    .game-table-p-contain p {
         text-align: center;
     }
 } 
@@ -198,7 +198,7 @@ textarea {
         padding: .5rem;
     }
 
-    .game-table-p-container {
+    .game-table-p-contain {
         display: flex;
         justify-content: space-between;
     }
