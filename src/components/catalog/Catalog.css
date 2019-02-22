@@ -27,6 +27,11 @@
     background: white;
 }
 
+.game-table-p-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .game-table-item img {
     padding: 10px;
     max-height: 200px;
@@ -153,4 +158,39 @@ textarea {
     .game-table-p-container p {
         text-align: center;
     }
-}
+} 
+
+@media screen and (min-width: 701) and (max-width: 1100) {
+    .game-table {
+        padding: .5rem;
+        overflow-y: scroll;
+        max-height: 400px;
+    }
+
+    .game-table div {
+        display: block;
+    }
+
+    .game-table div p {
+        display: block;
+        font-size: .75rem;
+        margin-bottom: .5rem;
+    }
+
+    .addition-suggestion {
+        text-align: center;
+    }
+
+    .addition-suggestion span {
+        display: block;
+    }
+
+    .alphabet {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .alphabet span {
+        padding: .5rem;
+    }
+} 
