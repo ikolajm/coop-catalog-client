@@ -5,6 +5,7 @@ import Catalog from './components/catalog/Catalog';
 import SingleGame from './components/catalog/Single';
 import Profile from './components/profile/Profile';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import APIURL from './helpers/environment';
 import './App.css';
  
 export default class App extends Component {
@@ -65,7 +66,7 @@ export default class App extends Component {
 
     // Get all game data
     fetchGameData = () => {
-        let url = `http://localhost:3001/games/`;
+        let url = `${APIURL}/games/`;
         fetch(url, {
             method: 'GET',
             headers: {
@@ -83,7 +84,7 @@ export default class App extends Component {
 
     // Get single game data
     findSingle = (id) => {
-        let url = `http://localhost:3001/games/${id}`
+        let url = `${APIURL}/games/${id}`
         fetch(url, {
             method: 'GET',
             headers: {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Particles from '../particles/Particle';
-import { Redirect } from 'react-router-dom';
+import APIURL from '../../helpers/environment';
 import { Container, Row, Col, Button, Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 import './Profile.css';
 
@@ -36,7 +36,7 @@ export default class Profile extends Component {
             });
             return;
         } else {
-            let url = `http://localhost:3001/user/edit/${this.props.user.id}`;
+            let url = `${APIURL}/user/edit/${this.props.user.id}`;
             fetch(url, {
                 method: 'PUT',
                 body: JSON.stringify(this.state),
@@ -64,7 +64,7 @@ export default class Profile extends Component {
     
     handleDelete = (e) => {
         e.preventDefault();
-        fetch(`http://localhost:3001/user/delete/${this.props.user.id}`, {
+        fetch(`${APIURL}/user/delete/${this.props.user.id}`, {
           method: 'DELETE',
           headers: new Headers({
             'Content-Type': 'application/json',

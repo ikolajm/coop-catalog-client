@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Modal, ModalBody, ModalHeader, ModalFooter, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Particles from '../particles/Particle';
+import APIURL from '../../helpers/environment';
 import './Catalog.css';
 
 export default class Catalog extends Component {
@@ -76,7 +77,7 @@ export default class Catalog extends Component {
     }
 
     handleAdd = () => {
-        fetch(`http://localhost:3001/games/add`, {
+        fetch(`${APIURL}/games/add`, {
             method: 'POST',
             body: JSON.stringify(this.state),
             headers: new Headers ({

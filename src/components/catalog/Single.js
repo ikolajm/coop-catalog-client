@@ -3,6 +3,7 @@ import { Container, Row, Col, Button, Modal, ModalBody, ModalHeader, ModalFooter
 import { Link } from 'react-router-dom';
 import { FaArrowLeft } from 'react-icons/fa';
 import Particles from '../particles/Particle';
+import APIURL from '../../helpers/environment';
 import Moment from 'moment';
 import './Single.css';
 
@@ -60,7 +61,7 @@ export default class Single extends Component {
 
     handleEdit = (e) => {
         e.preventDefault();
-        fetch(`http://localhost:3001/games/edit/${this.props.game.id}`, {
+        fetch(`${APIURL}/games/edit/${this.props.game.id}`, {
             method: 'PUT',
             body: JSON.stringify(this.state),
             headers: new Headers ({
