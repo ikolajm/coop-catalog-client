@@ -103,7 +103,7 @@ export default class Auth extends Component {
                                 <label htmlFor="username">Username:</label><br/>
                                 <input onChange={this.handleChange} value={this.state.username} type="text" id="username" /><br/>
                                 <label htmlFor="password">Password:</label><br/>
-                                <input onChange={this.handleChange} value={this.state.password} type="password" id="password" /><br/>
+                                <input onChange={this.handleChange} value={this.state.password} minLength="5" type="password" id="password" /><br/>
                                 <label htmlFor="passwordConfirm">Confirm Password:</label><br/>
                                 <input onChange={this.handleChange} value={this.state.passwordConfirm} type="password" id="passwordConfirm" /><br/>
                                 <label htmlFor="firstName">Email:</label><br/>
