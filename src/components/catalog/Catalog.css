@@ -120,6 +120,10 @@ textarea {
         margin-bottom: .5rem;
     }
 
+    .addition-suggestion p {
+        text-align: center;
+    }
+
     .addition-suggestion span {
         display: block;
     }
