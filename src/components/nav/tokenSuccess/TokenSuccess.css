@@ -18,6 +18,7 @@
     width: 150px;
     background-color: #ef709d;
     box-shadow: 1px 2px 8px #00000061;
+    cursor: pointer;
 }
 
 .profile-view div {

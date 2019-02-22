@@ -31,6 +31,7 @@
 
 .form-view .form-toggle {
     margin: .5rem 0rem;
+    cursor: pointer;
 }
 
 .rotated-arr {
