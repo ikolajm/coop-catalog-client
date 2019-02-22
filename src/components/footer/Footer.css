@@ -1,0 +1,14 @@
+footer {
+    background: #3a69c1;
+    padding: .55em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+footer img {
+    filter: invert(1);
+    width: 75px;
+    height: 55px;
+}

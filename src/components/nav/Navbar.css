@@ -1,0 +1,25 @@
+nav {
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    background: #ef709d;
+    padding: 1rem;
+}
+
+nav img {
+    width: 75px;
+    height: 35px;
+    filter: invert(1);
+}
+
+nav div {
+    display: flex;
+}
+
+nav div .nav-link {
+    color: white !important;
+    padding: 0rem .5rem;
+}

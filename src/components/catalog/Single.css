@@ -1,0 +1,81 @@
+.catalog-main {
+    background: #3a69c1;
+    position: relative;
+    padding-top: 67px;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.catalog-all-container {
+    position: relative;
+    height: calc(100vh - 67px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog-all-info {
+    background: #ef709d;
+    color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px 1px #0000007a;
+}
+
+.catalog-all-info .arrow {
+    color: white;
+}
+
+.arrow {
+    color: white;
+    display: block;
+}
+
+.single-game-image {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.game-edit-confirm {
+    color: white;
+}
+
+.error-log {
+    display: block !important
+}
+
+.single-all-container {
+    position: relative;
+    height: calc(100vh - 67px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-all-info-container {
+    padding: 2rem;
+    background: #ef709d;
+    box-shadow: 0 0 10px 1px #0000007a;
+}
+
+.single-all-info {
+    background: white;
+    color: black;
+    padding: 1rem;
+}
+
+.single-all-info .arrow,
+.arrow a {
+    color: black !important;
+}
+
+.single {
+    margin: 0 auto;
+}
+
+.single-game-details-contain h5,
+.single-game-details-contain h6,
+.single-game-details-contain h3,
+.single-game-details-contain p  {
+    margin-bottom: .15rem;
+}

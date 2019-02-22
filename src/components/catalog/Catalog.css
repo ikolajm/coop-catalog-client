@@ -1,0 +1,94 @@
+.catalog-main {
+    background: #3a69c1;
+    position: relative;
+    padding-top: 67px;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.catalog-all-container {
+    position: relative;
+    height: calc(100vh - 67px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog-all-info {
+    background: #ef709d;
+    color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px 1px #0000007a;
+}
+
+.game-table {
+    padding: 1rem;
+    background: white;
+}
+
+.game-table-item img {
+    padding: 10px;
+    max-height: 200px;
+    max-width: 100px;
+}
+
+.game-table-item p {
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+.search-letter {
+    color: black;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.addition-suggestion {
+    color: black;
+    text-align: right
+}
+
+.addition-suggestion span {
+    color: #ef709d;
+    cursor: pointer;
+}
+
+.game-add-span:hover,
+.search-letter:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.head-table-row {
+    text-decoration: underline;
+}
+
+textarea {
+    width: 100%;
+}
+
+.game-table {
+    padding: 1rem;
+    background: white;
+}
+
+.game-table-item {
+    background: white;
+    color: black;
+}
+
+.game-table-item p {
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+.details-link,
+.details-link:hover {
+    color: #ef709d !important;
+}

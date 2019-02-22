@@ -1,0 +1,38 @@
+.auth-container {
+    position: relative;
+}
+
+.auth-container p {
+    margin-bottom: 0rem;
+    padding: 0rem .5rem;
+    color: white;
+}
+
+.form-view-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: block;
+    margin-top: 30px;
+    background-color: #ef709d;
+    box-shadow: 1px 2px 8px #00000061;
+}
+
+.form-view {
+    padding: 1rem;
+}
+
+.form-view form label {
+    color: white;
+    margin: 0;
+    padding: .25rem 0rem;
+}
+
+.form-view .form-toggle {
+    margin: .5rem 0rem;
+}
+
+.rotated-arr {
+    transform: rotate(180deg);
+}

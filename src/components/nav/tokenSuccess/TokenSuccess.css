@@ -1,0 +1,43 @@
+.profile-container {
+    position: relative;
+}
+
+.profile-container p {
+    margin-bottom: 0rem;
+    padding: 0rem .5rem;
+    color: white;
+}
+
+.profile-view {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: block;
+    margin-top: 25px;
+    width: 150px;
+    background-color: #ef709d;
+    box-shadow: 1px 2px 8px #00000061;
+}
+
+.profile-view div {
+    padding: .5rem;
+    display: block;
+}
+
+.profile-view a, 
+.profile-view p {
+    padding: .25rem;
+    color: white !important;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.profile-view a:hover, 
+.profile-view p:hover {
+    cursor: pointer;
+}
+
+.rotated-arr {
+    transform: rotate(180deg);
+}
