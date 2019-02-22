@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FaCaretDown } from 'react-icons/fa';
 import { Button } from 'reactstrap';
-import APIURL from '../../helpers/environment';
+import APIURL from '../../../helpers/environment';
 import './Auth.css';
 
 export default class Auth extends Component {
