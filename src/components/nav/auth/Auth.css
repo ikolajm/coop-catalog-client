@@ -40,7 +40,7 @@
 }
 
 @media screen and (max-width: 700px) {
-    .form-view-container div {
+    .form-view-container {
         right: 0;
     }
 }
