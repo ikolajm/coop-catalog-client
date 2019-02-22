@@ -110,7 +110,7 @@ export default class Catalog extends Component {
                     <Container className="catalog-all-container">
                         <div className="catalog-all-info">
                             <div className="game-table">
-                                <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                                <div className="game-table-p-contain">
                                     <p className="addition-suggestion">Choose a letter to sort by</p>
                                      {/* Add a game */}
                                     <p className="addition-suggestion">Don't see the game you play? <span className="game-add-span" onClick={this.toggleAdd}>Add it to the library</span></p>

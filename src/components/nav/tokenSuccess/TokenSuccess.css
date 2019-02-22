@@ -42,3 +42,9 @@
 .rotated-arr {
     transform: rotate(180deg);
 }
+
+@media screen and (max-width: 700px) {
+    .profile-container {
+        font-size: .9rem;
+    }
+}

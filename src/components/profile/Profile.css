@@ -74,3 +74,10 @@
         font-size: 1.25rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .user-profile-image-col img {
+        height: 100px;
+        width: 100px;
+    }
+}
