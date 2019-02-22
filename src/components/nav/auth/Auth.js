@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FaCaretDown } from 'react-icons/fa';
 import { Button } from 'reactstrap';
+import APIURL from '../../helpers/environment';
 import './Auth.css';
 
 export default class Auth extends Component {
@@ -36,7 +37,7 @@ export default class Auth extends Component {
             });
             return;
         } else {
-            let url = this.state.login ? 'http://localhost:3001/user/signin' : 'http://localhost:3001/user/signup';
+            let url = this.state.login ? `${APIURL}/user/signin` : `${APIURL}/user/signup`;
             fetch(url, {
                 method: 'POST',
                 body: JSON.stringify(this.state),

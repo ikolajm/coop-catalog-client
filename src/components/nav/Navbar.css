@@ -23,3 +23,18 @@ nav div .nav-link {
     color: white !important;
     padding: 0rem .5rem;
 }
+
+@media screen and (max-width: 700px) {
+    nav img {
+        width: 50px;
+        height: 35px;
+    }
+
+    nav div a {
+        font-size: .9rem;
+    }
+
+    .auth-container {
+        font-size: .9rem;
+    }
+}
