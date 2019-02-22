@@ -43,4 +43,16 @@
     .form-view-container {
         right: 0;
     }
+
+    .form-view form {
+        width: 100%;
+    }
+
+    .form-view form input {
+        width: 100%;
+    }
+
+    .form-view button {
+        font-size: .6rem;
+    }
 }
