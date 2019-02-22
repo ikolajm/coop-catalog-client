@@ -121,7 +121,7 @@
 
     tr img {
         width: 50px;
-        height: 25px;
+        height: 50px;
     }
 
     .single-all-info-container {
@@ -133,8 +133,12 @@
     }
 
     .single-all-info div img {
-        width: 100%;
+        width: 100px;
         padding-bottom: 15px;
+    }
+
+    .single-game-details-contain p {
+        font-size: .9rem;
     }
 
     .single-game-details-contain h5 {

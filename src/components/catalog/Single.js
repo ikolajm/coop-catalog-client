@@ -100,7 +100,7 @@ export default class Single extends Component {
                                 <Col sm="7">
                                     <div className="single-game-details-contain">
                                         <h5>Name:</h5>
-                                        <h3>{this.state.name}</h3>
+                                        <h5>{this.state.name}</h5>
                                         <h5>Summary:</h5>
                                         <p>{this.state.summary}</p>
                                         <h5>Genre:</h5>
