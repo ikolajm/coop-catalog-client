@@ -110,6 +110,7 @@ textarea {
     }
 
     .game-table div p {
+        display: block;
         font-size: .75rem;
         margin-bottom: .5rem;
     }
