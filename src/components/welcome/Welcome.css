@@ -169,7 +169,7 @@
     .block {
         height: 250px;
         width: 100%;
-        margin: 1rem 0rem;
+        margin: 1rem .25rem;
     }
 }
 

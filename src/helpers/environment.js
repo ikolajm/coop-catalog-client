@@ -5,7 +5,7 @@ switch( window.location.hostname) {
         APIURL = 'http://localhost:3001';
         break;
     case 'coop-catalog-jmi.herokuapp.com' :
-        APIURL = 'https://coop-catalog-jmi.herokuapp.com';
+        APIURL = 'https://coop-catalog.herokuapp.com';
 }
 
 export default APIURL;
