@@ -115,7 +115,7 @@ export default class Catalog extends Component {
                                      {/* Add a game */}
                                     <p className="addition-suggestion">Don't see the game you play? <span className="game-add-span" onClick={this.toggleAdd}>Add it to the library</span></p>
                                 </div>
-                                <div>
+                                <div className="alphabet">
                                     {alphabetMap}
                                 </div> <hr />
                                 <table>

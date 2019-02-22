@@ -92,3 +92,47 @@ textarea {
 .details-link:hover {
     color: #ef709d !important;
 }
+
+@media screen and (max-width: 700px) {
+    .catalog-all-info {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .game-table {
+        padding: .5rem;
+        overflow-y: scroll;
+        max-height: 400px;
+    }
+
+    .game-table div {
+        display: block;
+    }
+
+    .game-table div p {
+        font-size: .75rem;
+        margin-bottom: .5rem;
+    }
+
+    .addition-suggestion span {
+        display: block;
+    }
+
+    .alphabet {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .alphabet span {
+        padding: .5rem;
+    }
+
+    tbody {
+        font-size: .5rem;
+    }
+
+    tr img {
+        width: 50px;
+        height: 25px;
+    }
+}

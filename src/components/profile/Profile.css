@@ -54,3 +54,23 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 700px) {
+    .user-profile-image-col {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .user-profile-image-col img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .user-profile-read-data h5 {
+        font-size: .85rem;
+    }
+
+    .user-profile-read-data h3 {
+        font-size: 1.25rem;
+    }
+}
