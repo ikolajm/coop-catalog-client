@@ -161,6 +161,10 @@ textarea {
 } 
 
 @media screen and (min-width: 701) and (max-width: 1100) {
+    .catalog-all-container {
+        width: 100%;
+    }
+
     .game-table {
         padding: .5rem;
         overflow-y: scroll;
@@ -192,5 +196,10 @@ textarea {
 
     .alphabet span {
         padding: .5rem;
+    }
+
+    .game-table-p-container {
+        display: flex;
+        justify-content: space-between;
     }
 } 
