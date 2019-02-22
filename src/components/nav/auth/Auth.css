@@ -1,5 +1,6 @@
 .auth-container {
     position: relative;
+    cursor: pointer;
 }
 
 .auth-container p {
