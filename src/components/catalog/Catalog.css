@@ -83,7 +83,7 @@ textarea {
     background: white;
 }
 
-.game-table-p-container {
+.game-table-p-contain {
     display: flex;
     justify-content: space-between
 }
