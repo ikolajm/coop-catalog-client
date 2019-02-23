@@ -149,3 +149,47 @@
         font-size: .9rem;
     }
 }
+
+@media (min-width: 701px) and (max-width: 1200px) {
+    .catalog-all-container {
+        width: 100%;
+    }
+
+    .game-table {
+        padding: .5rem;
+        overflow-y: scroll;
+        max-height: 400px;
+    }
+
+    .game-table div {
+        display: block;
+    }
+
+    .game-table div p {
+        display: block;
+        font-size: .75rem;
+        margin-bottom: .5rem;
+    }
+
+    .addition-suggestion {
+        text-align: center;
+    }
+
+    .addition-suggestion span {
+        display: block;
+    }
+
+    .alphabet {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .alphabet span {
+        padding: .5rem;
+    }
+
+    .game-table-p-contain {
+        display: flex;
+        justify-content: space-between;
+    }
+} 
