@@ -118,8 +118,6 @@ textarea {
 
     .game-table {
         padding: .5rem;
-        overflow-y: scroll;
-        max-height: 400px;
     }
 
     .game-table div {
@@ -174,8 +172,6 @@ textarea {
 
     .game-table {
         padding: .5rem;
-        overflow-y: scroll;
-        max-height: 400px;
     }
 
     .game-table div {
