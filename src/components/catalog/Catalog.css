@@ -13,7 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 70%;
 }
 
 .catalog-all-info {
@@ -31,6 +30,8 @@ tbody {
 .game-table {
     padding: 1rem;
     background: white;
+    overflow-y: scroll;
+    max-height: 70vh;
 }
 
 .game-table-p-container {
