@@ -17,7 +17,7 @@
 
 .user-profile {
     background: #ef709d;
-    color: white;
+    color: black;
     padding: 2rem;
     box-shadow: 0 0 10px 1px #0000007a;
 }
@@ -55,6 +55,15 @@
     justify-content: space-evenly;
 }
 
+.user-profile .row {
+    padding: 1rem;
+    background: white;
+}
+
+.user-profile-read-data h3 {
+    font-size: 1.2rem;
+}
+
 @media screen and (max-width: 700px) {
     .user-profile-image-col {
         text-align: center;
@@ -71,7 +80,11 @@
     }
 
     .user-profile-read-data h3 {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
+    }
+
+    .user-profile .row {
+        padding: .5rem;
     }
 }
 

@@ -62,6 +62,8 @@
     background: white;
     color: black;
     padding: 1rem;
+    max-height: 70vh;
+    overflow-y: scroll;
 }
 
 .single-all-info .arrow,
