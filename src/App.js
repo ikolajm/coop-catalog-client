@@ -117,7 +117,7 @@ export default class App extends Component {
                             <Catalog refresh={this.fetchGameData} games={this.state.gameData} singleGame={this.findSingle} />
                         </Route>
                         <Route exact path="/catalog/:id">
-                            <SingleGame refresh={this.findSingle} game={this.state.singleData} />
+                            <SingleGame user={this.state.user} refresh={this.findSingle} game={this.state.singleData} />
                         </Route>
                         <Route exact path="/profile">
                             <Profile storeSessionToken={this.storeSessionToken} storeUserData={this.storeUserData} user={this.state.user} />

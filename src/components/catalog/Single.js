@@ -79,6 +79,16 @@ export default class Single extends Component {
         this.props.refresh(this.props.game.id);
         this.toggleEdit();
     }
+
+    loginCheck = (user) => {
+        if (user !== null) {
+            return (<div style={{marginTop: '.15rem'}} className="single-game-button-edit">
+                        <Button onClick={this.toggleEdit} color="warning" className="game-edit-confirm">Edit Entry</Button>
+                    </div>)
+        } else {
+            return null
+        }
+    }
     
     render() {
         if(this.state.game) {
@@ -111,9 +121,7 @@ export default class Single extends Component {
                                         <h6>{this.state.rating}</h6>
                                         <h5>Last edited:</h5>
                                         <h6>{this.formatUpdateTime(date)}</h6>
-                                        <div style={{marginTop: '.15rem'}} className="single-game-button-edit">
-                                            <Button onClick={this.toggleEdit} color="warning" className="game-edit-confirm">Edit Entry</Button>
-                                        </div>
+                                        {this.loginCheck(this.props.user)}
                                     </div>
                                 </Col>
                             </Row>
